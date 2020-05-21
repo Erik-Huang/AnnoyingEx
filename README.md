@@ -1,6 +1,7 @@
 # AnnoyingEx
 Here we go again... Just click on the button to pretend that you have an ex that spans you with messages
-# Installtion
+
+# Installation
 Download & Install Android Studio through Android's Official Download Page:
 
 ## Android Studio
