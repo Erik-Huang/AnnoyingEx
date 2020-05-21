@@ -1,5 +1,9 @@
 # AnnoyingEx
 Here we go again... Just click on the button to pretend that you have an ex that spans you with messages
+Featuring blocking and endless new ideas from your ex.
+
+# Extra Credits
+This project attempted extra credit #1 and #2
 
 # Screenshots
 
