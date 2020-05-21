@@ -1,6 +1,8 @@
 package com.syaphen.annoyingex
 
 import android.app.Application
+import com.syaphen.annoyingex.managers.AnnoyingManager
+import com.syaphen.annoyingex.managers.MessageManager
 
 class AnnoyingExApp: Application() {
 

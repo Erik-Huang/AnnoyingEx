@@ -2,9 +2,10 @@ package com.syaphen.annoyingex
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import com.syaphen.annoyingex.managers.AnnoyingManager
+import com.syaphen.annoyingex.managers.MessageManager
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -25,6 +26,15 @@ class MainActivity : AppCompatActivity() {
 
         block_btn.setOnClickListener {
             annoyingManager.endAnnoyingMessages()
+            message_view.text = ""
+            imageView.visibility = GONE
+        }
+
+        message_view.text = intent.getStringExtra("ex_message")
+        if (message_view.text != "") {
+            imageView.visibility = VISIBLE
+        } else {
+            imageView.visibility = GONE
         }
     }
 

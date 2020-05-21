@@ -1,4 +1,4 @@
-package com.syaphen.annoyingex
+package com.syaphen.annoyingex.managers
 
 import android.content.Context
 import androidx.work.*
@@ -10,11 +10,11 @@ class AnnoyingManager(private val context: Context) {
 
     fun startAnnoyingMessages() {
         val constraints = Constraints.Builder()
-            //.setRequiresCharging(false)
+            .setRequiresCharging(true)
             .build()
 
-        val workRequest = PeriodicWorkRequestBuilder<ChatWorker>(15, TimeUnit.MINUTES)
-            .setInitialDelay(2, TimeUnit.SECONDS)
+        val workRequest = PeriodicWorkRequestBuilder<AnnoyingChatWorker>(20, TimeUnit.MINUTES)
+            .setInitialDelay(5, TimeUnit.SECONDS)
             .setConstraints(constraints)
             .build()
 
