@@ -1,6 +1,12 @@
 # AnnoyingEx
 Here we go again... Just click on the button to pretend that you have an ex that spans you with messages
 
+# Screenshots
+
+<img src="./screenshot1.png" alt="Screenshot of the default screen" height="500" />
+
+<img src="./screenshot2.png" alt="Screenshot of the default screen" height="500" />
+
 # Installation
 Download & Install Android Studio through Android's Official Download Page:
 
