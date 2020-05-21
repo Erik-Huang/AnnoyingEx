@@ -9,7 +9,7 @@ This project attempted extra credit #1 and #2
 
 <img src="./screenshot1.png" alt="Screenshot of the default screen" height="500" />
 
-Here it comes:
+Here it comes: \n
 <img src="./screenshot2.png" alt="Screenshot of the default screen" height="500" />
 
 Image credit: https://dlpng.com/png/6576192
